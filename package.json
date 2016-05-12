@@ -1,6 +1,6 @@
 {
   "name": "bus-expectation",
-  "version": "0.0.25",
+  "version": "0.0.26",
   "description": "Testing library to expect some messages in a queue or topic in stomp protocol.",
   "main": "src/busExpectation.js",
   "scripts": {
