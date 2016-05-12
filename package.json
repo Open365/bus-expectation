@@ -1,0 +1,25 @@
+{
+  "name": "bus-expectation",
+  "version": "0.0.25",
+  "description": "Testing library to expect some messages in a queue or topic in stomp protocol.",
+  "main": "src/busExpectation.js",
+  "scripts": {
+    "test": "mocha -u tdd -R spec src/test"
+  },
+  "dependencies": {
+    "eyeos-stomp": "~0.1.2",
+    "deep-equal": "1.0.0",
+    "eyeos-hooks": "*"
+  },
+  "devDependencies": {
+    "eyeos-gruntfile": "*",
+    "mocha": "1.20.0",
+    "chai": "1.8.0",
+    "sinon": "1.7.3",
+    "grunt": "0.4.5",
+    "grunt-init": "0.2.1",
+    "grunt-shell": "0.7.0",
+    "grunt-mocha-test": "0.11.0"
+  },
+  "license": "AGPL-3.0"
+}
